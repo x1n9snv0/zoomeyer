@@ -4,6 +4,7 @@ import urllib2
 import json
 import math
 import os
+import getpass
 
 
 class Zoomeyer:
@@ -325,7 +326,7 @@ def main():
     print "******************************************************************"
     print "---------Welcome to the zoomeyer, you should login first.---------"
     username = raw_input("Username: ")
-    password = raw_input("Password: ")
+    password = getpass.getpass("Password: ")
     zoomeyer.login(username, password)
     destination = raw_input("Which kind of device?>")
     keyword = raw_input('Please enter the search keyword:>')
