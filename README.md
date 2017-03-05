@@ -7,7 +7,7 @@ When your Zoomeye's account is ready, it's time for Zoomeyer!
 
 X:./zoomeyer
 
-You will see an welcome pic, then type in your username(e-mail) and password, press ENTER.
+You will see a welcome pic, then type in your username(e-mail) and password, press ENTER.
 If your network & account is OK, you will see your role and searching times you have.
 Commonly, a new account's role is "develpoer", and it can make you search both hosts & webs for 5000 times.
 For detail, please visit https://www.zoomeye.org/api/doc#visiblity
