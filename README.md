@@ -1,5 +1,5 @@
 # zoomeyer
-This is a program to use Zoomeye.org's API for exploering the IOT.
+This is a demo program to use Zoomeye.org's API.
 Before using  this program, you are expected to register an account at https://sso.telnet404.com/accounts/register/.
 And remember, your username must be an actived e-mail address. 
 
@@ -7,15 +7,15 @@ When your Zoomeye's account is ready, it's time for Zoomeyer!
 
 X:./zoomeyer
 
-You will see an welcome pic, then type in your username(e-mail) and password, press ENTER.
+You will see an welcome charactor pic, then type in your username(e-mail) and password, press enter.
 If your network & account is OK, you will see your role and searching times you have.
-Commonly, a new account's role is "develpoer", and it can make you search both hosts & webs for 5000 times.
+Commonly, an new account's role is "develpoer", and it can make you search both hosts & webs for 5000 times.
 For detail, please visit https://www.zoomeye.org/api/doc#visiblity
 
 Then, you will be asked to choose a type you want to search.
 The typical answer is 'hosts'(for host on the Internet) or 'sites'(for web servers and so on.)
 NOTE:You'd better not answer other words, except you want to restart the program.
-Let's take 'hosts' for example:
+Let's take hosts for example:
 
 X:Which kind of device?>hosts
 
