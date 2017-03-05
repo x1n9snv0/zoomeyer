@@ -30,7 +30,7 @@ MORE:>7
 then you will get the host's information in detail.
 Else if you type in nothing but enter:
 
-MORE:>7
+MORE:>
 
 then you will get the next page.
 Else if you type in other letters like this:
