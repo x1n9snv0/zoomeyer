@@ -46,10 +46,13 @@ class Zoomeyer:
 
     def query(self, destination, query, page='1'):
         query_request = urllib2.Request
+        query = "%20".join(query.split(" "))
         if destination == 'host':
-            query_request = urllib2.Request(self._host_search_url + "query=" + query + "&page=" + page)
+            url = self._host_search_url + "query=" + query + "&page=" + page
+            query_request = urllib2.Request(url)
         elif destination == 'sites':
-            query_request = urllib2.Request(self._web_search_url + "query=" + query + "&page=" + page)
+            url = self._web_search_url + "query=" + query + "&page=" + page
+            query_request = urllib2.Request(url)
         else:
             print "Unknown query parameter."
         query_request.add_header("Authorization", "JWT " + self._auth)
