@@ -2,7 +2,7 @@
 This is a program to use Zoomeye.org's API for exploering the IOT.
 Before using  this program, you are expected to register an account at https://sso.telnet404.com/accounts/register/.
 And remember, your username must be an actived e-mail address. 
-
+# I'm so sorry that this api is no longer available.
 When your Zoomeye's account is ready, it's time for Zoomeyer!
 
 X:./zoomeyer
